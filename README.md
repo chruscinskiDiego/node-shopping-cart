@@ -1,18 +1,18 @@
-# Carrinho de compras com Node.js
+# Shopping cart with Node.js
 
-Exercício de modularização em JavaScript que demonstra operações de um carrinho de compras no terminal.
+JavaScript modularization exercise that demonstrates shopping cart operations in the terminal.
 
-## Funcionalidades
+## Features
 
-- Criação de itens com preço e quantidade.
-- Inclusão e remoção de itens do carrinho.
-- Exibição dos itens e cálculo do total.
+- Creates items with prices and quantities.
+- Adds and removes cart items.
+- Displays the cart and calculates its total.
 
-## Tecnologias
+## Technologies
 
-Node.js e JavaScript com módulos ES.
+Node.js and JavaScript ES modules.
 
-## Executar localmente
+## Run locally
 
 ```bash
 git clone https://github.com/chruscinskiDiego/node-shopping-cart.git
@@ -20,13 +20,12 @@ cd node-shopping-cart
 node src/index.js
 ```
 
-## Organização
+## Structure
 
-- `src/services/item.js`: criação dos itens.
-- `src/services/cart.js`: operações do carrinho.
-- `src/index.js`: cenário de demonstração.
+- `src/services/item.js`: item creation.
+- `src/services/cart.js`: cart operations.
+- `src/index.js`: demonstration scenario.
 
-## Escopo e limitações
+## Scope and limitations
 
-Os dados ficam em memória e os itens do exemplo são definidos no código. Não há checkout, pagamentos ou persistência. O script npm test é apenas um placeholder.
-
+Data stays in memory and sample items are defined in the source. There is no checkout, payment integration or persistence. The npm test script is a placeholder.
